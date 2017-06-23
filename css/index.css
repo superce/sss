@@ -1,0 +1,396 @@
+.wrap {
+  width: 100%;
+}
+.header{
+  width: 100% auto;
+}
+.header .top{
+  width: 1000px;
+  margin: 0 auto;
+}
+.header .top img{
+  width: 286px;height: 58px;
+}
+.header .phone{
+  width: 275px;
+  height: 58px;
+  margin-left: 725px;
+  margin-top: -58px;
+  text-align: right;
+}
+.header .phone h1{
+  line-height: 25px;
+  color:#4289c6;
+  font-family: 'Microsoft Yahei';
+}
+/*轮播图*/
+.header .banner {
+  position: relative;
+  overflow: auto;
+  text-align: center;
+  border-top: 15px solid #0d8eb6;
+}
+
+.header .banner li { list-style: none; }
+
+.header .banner ul li { float: left; }
+#b06 {
+  width: 640px;
+}
+#b06 .dots {position: absolute; left: 0; right: 0; bottom: 5px;}
+#b06 .dots li {
+	display: inline-block;
+	width: 70px;
+	height: 5px;
+	margin: 0 7px;
+	text-indent: -999em;
+	border: 2px solid #fff;
+	cursor: pointer;
+	opacity: .4;
+ -webkit-transition: background .5s, opacity .5s;
+	-moz-transition: background .5s, opacity .5s;
+	transition: background .5s, opacity .5s;
+}
+#b06 .dots li.active {
+	background: #fff;
+	opacity: 1;
+}
+#b06 .arrow { position: absolute; top: 50%;}
+#b06 #al { left: 15px;}
+#b06 #ar { right: 20px;}
+/*轮播图结束*/
+/*页面主体六个图片*/
+.main {
+  width: 1000px;
+  margin: 0 auto;
+}
+.main .top{
+  height: 158px;
+  margin-top: 60px;
+}
+.main .top ul li{
+  float: left;
+  margin-left: 10px;
+}
+.main .top ul li img{
+  width: 158px;
+}
+.main .top .li{
+  margin-left: 0;
+}
+/*豆腐块*/
+.df{
+  width: 1000px;
+  padding-top: 40px;
+}
+.df img{
+  width: 1000px;
+}
+/*豆腐块轮播*/
+.container {
+  position: relative;
+  overflow: auto;
+  text-align: center;
+}
+.container li { list-style: none; }
+.container ul li { float: left; }
+#b04 {
+	width: 1000px;
+}
+#b04 .dots {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+#b04 .dots li {
+	display: inline-block;
+	width: 40px;
+	height: 10px;
+	margin: 0 6px;
+	text-indent: -999em;
+  background: #ffb040;
+	border-radius: 6px;
+	cursor: pointer;
+}
+#b04 .dots li.active {
+  width: 70px;
+  height: 10px;
+	opacity: 1;
+}
+/*豆腐块图片*/
+#b04 .li{
+  margin: 5px;
+  width: 155px;
+  height: 155px;
+}
+#b04 .li img{
+  width: 100%;
+  height: 100%;
+}
+/*鼠标滑过样式１*/
+#b04 .li:hover .pic-top{
+  display: none;
+}
+#b04 .pic-bottom{
+  display: none;
+}
+#b04 .li:hover .pic-bottom{
+  display: block;
+}
+/*鼠标滑过样式２*/
+#b04 .li:hover .pic-top1{
+  display: none;
+}
+#b04 .pic-bottom1{
+  display: none;
+}
+#b04 .li:hover .pic-bottom1{
+  display: block;
+}
+/*鼠标滑过样式３*/
+#b04 .li:hover .pic-top2{
+  display: none;
+}
+#b04 .pic-bottom2{
+  display: none;
+}
+#b04 .li:hover .pic-bottom2{
+  display: block;
+}
+/*鼠标滑过样式４*/
+#b04 .li:hover .pic-top3{
+  display: none;
+}
+#b04 .pic-bottom3{
+  display: none;
+}
+#b04 .li:hover .pic-bottom3{
+  display: block;
+}
+/*鼠标滑过样式5*/
+#b04 .li:hover .pic-top4{
+  display: none;
+}
+#b04 .pic-bottom4{
+  display: none;
+}
+#b04 .li:hover .pic-bottom4{
+  display: block;
+}
+/*鼠标滑过样式6*/
+#b04 .li:hover .pic-top5{
+  display: none;
+}
+#b04 .pic-bottom5{
+  display: none;
+}
+#b04 .li:hover .pic-bottom5{
+  display: block;
+}
+/*鼠标滑过样式7*/
+#b04 .li:hover .pic-top6{
+  display: none;
+}
+#b04 .pic-bottom6{
+  display: none;
+}
+#b04 .li:hover .pic-bottom6{
+  display: block;
+}
+/*鼠标滑过样式8*/
+#b04 .li:hover .pic-top7{
+  display: none;
+}
+#b04 .pic-bottom7{
+  display: none;
+}
+#b04 .li:hover .pic-bottom7{
+  display: block;
+}
+/*鼠标滑过样式9*/
+#b04 .li:hover .pic-top8{
+  display: none;
+}
+#b04 .pic-bottom8{
+  display: none;
+}
+#b04 .li:hover .pic-bottom8{
+  display: block;
+}
+/*鼠标滑过样式10*/
+#b04 .li:hover .pic-top9{
+  display: none;
+}
+#b04 .pic-bottom9{
+  display: none;
+}
+#b04 .li:hover .pic-bottom9{
+  display: block;
+}
+/*鼠标滑过样式11*/
+#b04 .li:hover .pic-top10{
+  display: none;
+}
+#b04 .pic-bottom10{
+  display: none;
+}
+#b04 .li:hover .pic-bottom10{
+  display: block;
+}
+/*鼠标滑过样式12*/
+#b04 .li:hover .pic-top11{
+  display: none;
+}
+#b04 .pic-bottom11{
+  display: none;
+}
+#b04 .li:hover .pic-bottom11{
+  display: block;
+}
+/*鼠标滑过样式13*/
+#b04 .li:hover .pic-top12{
+  display: none;
+}
+#b04 .pic-bottom12{
+  display: none;
+}
+#b04 .li:hover .pic-bottom12{
+  display: block;
+}
+/*鼠标滑过样式14*/
+#b04 .li:hover .pic-top13{
+  display: none;
+}
+#b04 .pic-bottom13{
+  display: none;
+}
+#b04 .li:hover .pic-bottom13{
+  display: block;
+}
+/*鼠标滑过样式15*/
+#b04 .li:hover .pic-top14{
+  display: none;
+}
+#b04 .pic-bottom14{
+  display: none;
+}
+#b04 .li:hover .pic-bottom14{
+  display: block;
+}
+/*鼠标滑过样式16*/
+#b04 .li:hover .pic-top15{
+  display: none;
+}
+#b04 .pic-bottom15{
+  display: none;
+}
+#b04 .li:hover .pic-bottom15{
+  display: block;
+}
+/*鼠标滑过样式17*/
+#b04 .li:hover .pic-top16{
+  display: none;
+}
+#b04 .pic-bottom16{
+  display: none;
+}
+#b04 .li:hover .pic-bottom16{
+  display: block;
+}
+/*鼠标滑过样式18*/
+#b04 .li:hover .pic-top17{
+  display: none;
+}
+#b04 .pic-bottom17{
+  display: none;
+}
+#b04 .li:hover .pic-bottom17{
+  display: block;
+}
+#b04 .arrow {
+  position: absolute;
+  top: 200px;
+  display: none;
+  background-color:#000;
+  filter:alpha(opacity=70);
+      -moz-opacity:0.7;
+      -khtml-opacity: 0.7;
+      opacity: 0.7;
+  border-radius: 5px;
+}
+#b04:hover .arrow{
+  display: block;
+}
+#b04 #al { left: 15px;}
+#b04 #ar { right: 25px;}
+/*豆腐轮播结束*/
+.footer{
+  height: 300px;
+  margin-top: 100px;
+  background-color: #4f4f4f;
+}
+.footer .f-top{
+  height: 60%;
+  border-bottom: 1px solid #827b7b;
+}
+.footer .title{
+  width: 900px;
+  padding-top: 50px;
+  margin: 0 auto;
+  color:#fff;
+  font-family: 'Microsoft Yahei';
+  font-size: 18px;
+  text-align: center;
+}
+.footer .title a{
+  color:#fff;
+}
+.footer .title1{
+  width: 900px;
+  padding-top: 10px;
+  margin: 0 auto;
+  color:#fff;
+  font-family: 'Microsoft Yahei';
+  font-size: 18px;
+  text-align: center;
+}
+.footer .title1 a{
+  color:#fff;
+}
+/*底部版权*/
+    .tcopyright {
+      width:900px;
+      margin: 0 auto;
+      text-align: center;
+      font-size:12px;
+      line-height:28px;
+      color:#a4a4a4;
+      margin-top: 10px;
+    }
+    .tcopyright .en{
+      font-family:Arial;
+    }
+    .tcopyright a{
+      color:#a4a4a4;
+      text-decoration: none;
+    }
+    .tcopyright a:hover{
+      color:#fff;
+      text-decoration: underline;
+    }
+ /*返回顶部*/
+ #return{
+			position: fixed;
+			bottom: 100px;
+			right: 50px;
+			display: none;
+			width: 50px;
+			height: 50px;
+			text-align: center;
+			text-decoration: none;
+			line-height: 50px;
+		}
+ #return img{
+   width: 100%;
+ }
